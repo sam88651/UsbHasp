@@ -31,6 +31,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>README.md</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -89,6 +90,12 @@
                             perm="755"
                             owner="root"
                             group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}"
+                            from="${OUTPUT_PATH}"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
         </packFileList>
         <packInfoList>
           <packInfoListElem name="Package" value="usb-hasp" mandatory="true"/>
@@ -111,6 +118,8 @@
       <item path="EncDecSim.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="LoadKey.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
       </item>
       <item path="USBDevice.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -149,6 +158,8 @@
       <item path="EncDecSim.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="LoadKey.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
       </item>
       <item path="USBDevice.c" ex="false" tool="0" flavor2="0">
       </item>
