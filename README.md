@@ -25,4 +25,4 @@ I'd like to say that my project is based on many works and pieces of code
 developed for Windows of various versions. I thank all of you who shared their 
 code. Now it's my turn.
 
-Dependencies: usb_vhci library, jasson library.
+Dependencies: usb_vhci-1.5 library, jansson-2.10 library.
